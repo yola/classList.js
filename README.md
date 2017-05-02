@@ -1,18 +1,35 @@
-classList.js is a cross-browser JavaScript shim that fully implements `element.classList`. Refer to [the MDN page on `element.classList`][1] for more information.
+# classlist-polyfill
 
-This works in every browser except IE 7 or earlier.
+Polyfill for [`element.classList`][docs].
 
-An older version is hosted at public CDNs, allowing you to use this already small file at nearly zero size overhead. Use one of these URLs:
+This is a published fork of [classList.js][].
 
-  - [//cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js](//cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js)
-  - [//cdn.jsdelivr.net/classlist/2014.01.31/classList.min.js](//cdn.jsdelivr.net/classlist/2014.01.31/classList.min.js)
+[classList.js]:https://github.com/eligrey/classList.js
+[docs]: https://developer.mozilla.org/en/DOM/element.classList
 
-If you would like other versions (such as the current one) hosted there, follow the instructions at 
-https://github.com/jsdelivr/jsdelivr
-and
-https://github.com/cdnjs/cdnjs
-to prepare a pull request.
 
-![Tracking image](https://in.getclicky.com/212712ns.gif)
+## Installation
 
-  [1]: https://developer.mozilla.org/en/DOM/element.classList "MDN / DOM / element.classList"
+Download using [NPM](https://www.npmjs.com/package/classlist-polyfill):
+
+```shell
+npm install classlist-polyfill
+```
+
+Download using [Bower](http://bower.io/):
+
+```shell
+bower install classlist-polyfill
+```
+
+
+## What is the purpose of this repo?
+
+The upstream maintainer has decided [not to publish][comment].
+
+[comment]: https://github.com/eligrey/classList.js/pull/46#issuecomment-189782600
+
+
+## Contributing
+
+Preferably all changes are made upstream.
