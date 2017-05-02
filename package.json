@@ -23,7 +23,7 @@
   "contributors": [
     "Yola Engineering <engineers@yola.com> (https://www.yola.com/)"
   ],
-  "license": "Public Domain",
+  "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/eligrey/classList.js/issues"
   },
