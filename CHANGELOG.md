@@ -1,6 +1,6 @@
 # Changelog
 
-## Dev
+## 1.2.0
 
 * Rewrite history for [yola/classlist-polyfill][], branching and rebasing
   from [eligrey/classList][].
