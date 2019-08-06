@@ -22,6 +22,10 @@ Download using [Bower](http://bower.io/):
 bower install classlist-polyfill
 ```
 
+## Using (with webpack)
+
+1. Put lib to package.json
+2. Add `require('classlist-polyfill')` to the entry point file
 
 ## What is the purpose of this repo?
 
